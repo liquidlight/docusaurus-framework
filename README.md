@@ -6,11 +6,12 @@ At Liquid Light we have our documentation located within the main site repo, so 
 
 ## Setup
 
+- `npm init` if this is a brand new project
 - `npm i @liquidlight/docusaurus-framework`
-- Create a `docusaurus.config.js` in the root of your project with the following contents:
+- Create a `docusaurus.config.js` in the root of your project (or subfolder) with the following contents:
 
 ```js
-const config = require('@liquidlight/docusaurus-framework');
+const config = require('@liquidlight/docusaurus-framework/docusaurus.config');
 
 module.exports = {
 	...config,
@@ -27,3 +28,6 @@ module.exports = {
   "serve": "./node_modules/.bin/docusaurus serve"
 }
 ```
+
+- Create a `docs` folder, here you can add a series of folders and `.md` (or `.mdx` files) for you documentation content
+- Create a `static` folder - anything in here can be directly referenced in your Markdown files without the `static/` - e.g. `./static/img/logo.png` can be referenced as `img/logo.png`
