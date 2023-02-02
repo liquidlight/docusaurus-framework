@@ -1,6 +1,6 @@
 {
 	"name": "@liquidlight/docusaurus-framework",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Liquid Light Docusaurus Framework",
 	"scripts": {
 		"watch": "docusaurus start",
