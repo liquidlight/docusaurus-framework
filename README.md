@@ -17,3 +17,13 @@ module.exports = {
 	title: ''
 };
 ```
+
+- Add the following scripts to the `package.json`
+
+```json
+"scripts": {
+  "watch": "./node_modules/.bin/docusaurus start",
+  "build": "./node_modules/.bin/docusaurus build",
+  "serve": "./node_modules/.bin/docusaurus serve"
+}
+```
