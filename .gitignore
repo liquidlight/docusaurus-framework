@@ -1,0 +1,4 @@
+node_modules
+._*
+.docusaurus
+.DS_Store

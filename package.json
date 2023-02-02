@@ -1,0 +1,23 @@
+{
+	"name": "@liquidlight/docusaurus-framework",
+	"version": "0.1.0",
+	"description": "Liquid Light Docusaurus Framework",
+	"scripts": {
+		"watch": "docusaurus start",
+		"build": "docusaurus build",
+		"serve": "docusaurus serve"
+	},
+	"author": "Mike Street",
+	"license": "ISC",
+	"dependencies": {
+		"@docusaurus/core": "^2.0.0",
+		"@docusaurus/preset-classic": "^2.0.0",
+		"@easyops-cn/docusaurus-search-local": "^0.33.4",
+		"@mdx-js/react": "^1.6.22",
+		"clsx": "^1.1.1",
+		"deepmerge": "^4.2.2",
+		"prism-react-renderer": "^1.2.1",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1"
+	}
+}
