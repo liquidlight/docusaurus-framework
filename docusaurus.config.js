@@ -86,18 +86,13 @@ module.exports = function (options = {}) {
 	}
 
 	if (configOverrides.repository.url) {
-		preset_docs.editUrl = `${configOverrides.repository.url}${configOverrides.repository.host === 'Gitlab' ? '/-/tree/' : '/blob/'}${configOverrides.repository.branch}/`;
+		configOverrides.docs.editUrl = `${configOverrides.repository.url}${configOverrides.repository.host === 'Gitlab' ? '/-/tree/' : '/blob/'}${configOverrides.repository.branch}/`;
 
-		navbar_items.push({
-			href: configOverrides.gitlab_url,
+		configOverrides.navbar_items.push({
+			href: configOverrides.repository.url,
 			label: configOverrides.repository.host,
 			position: 'right',
 		});
-
-		/**
-		* Delete custom properties
-		*/
-		delete configOverrides.gitlab_url;
 	}
 
 	/**
