@@ -18,11 +18,11 @@
 	"author": "Mike Street",
 	"license": "ISC",
 	"dependencies": {
-		"@docusaurus/core": "^2.3.1",
-		"@docusaurus/preset-classic": "^2.3.1",
-		"@docusaurus/theme-mermaid": "^2.4.1",
-		"@easyops-cn/docusaurus-search-local": "^0.35.0",
-		"deepmerge": "^4.3.0",
+		"@docusaurus/core": "^2.4.3",
+		"@docusaurus/preset-classic": "^2.4.3",
+		"@docusaurus/theme-mermaid": "^2.4.3",
+		"@easyops-cn/docusaurus-search-local": "^0.36.0",
+		"deepmerge": "^4.3.1",
 		"prism-react-renderer": "^1.3.5"
 	}
 }
