@@ -4,7 +4,8 @@
 * Plugins
 */
 const merge = require('deepmerge')
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const { themes } = require('prism-react-renderer');
+const darkCodeTheme = themes.dracula;
 
 module.exports = function (options = {}) {
 	/**
