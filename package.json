@@ -19,7 +19,7 @@
 	"license": "ISC",
 	"dependencies": {
 		"@docusaurus/core": "3.0.0",
-		"@docusaurus/preset-classic": "3.0.0",
+		"@docusaurus/preset-classic": "3.0.1",
 		"@docusaurus/theme-mermaid": "3.0.0",
 		"@easyops-cn/docusaurus-search-local": "^0.37.1",
 		"deepmerge": "^4.3.1",
