@@ -18,7 +18,7 @@
 	"author": "Mike Street",
 	"license": "ISC",
 	"dependencies": {
-		"@docusaurus/core": "3.2.0",
+		"@docusaurus/core": "3.2.1",
 		"@docusaurus/preset-classic": "3.2.0",
 		"@docusaurus/theme-mermaid": "3.2.0",
 		"@easyops-cn/docusaurus-search-local": "^0.40.1",
